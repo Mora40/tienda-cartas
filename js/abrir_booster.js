@@ -14,96 +14,96 @@ function getRandomSubarray(arr, size) {
 
 // 3 cartas de tipo planta
 
-bulbasaur = {
+const bulbasaur = {
     "id": "1",
     "nombre": "Bulbasaur"
 }
 
-ivysaur = {
+const ivysaur = {
     "id": "2",
     "nombre": "Ivysaur"
 }
 
-venusaur = {
+const venusaur = {
     "id": "3",
     "nombre": "Venusaur"
 }
 
 // 3 cartas de tipo fuego
 
-charmander = {
+const charmander = {
     "id": "4",
     "nombre": "Charmander"
 }
 
-charmeleon = {
+const charmeleon = {
     "id": "5",
     "nombre": "Charmeleon"
 }
 
-charizard = {
+const charizard = {
     "id": "6",
     "nombre": "Charizard"
 }
 
 // 3 cartas de tipo agua
 
-squirtle = {
+const squirtle = {
     "id": "7",
     "nombre": "Squirtle"
 }
 
-wartortle = {
+const wartortle = {
     "id": "8",
     "nombre": "Wartortle"
 }
 
-blastoise = {
+const blastoise = {
     "id": "9",
     "nombre": "Blastoise"
 }
 
 // 3 cartas de tipo legendarios
 
-articuno = {
+const articuno = {
     "id": "144",
     "nombre": "Articuno"
 }
 
-zapdos = {
+const zapdos = {
     "id": "145",
     "nombre": "Zapdos"
 }
 
-moltres = {
+const moltres = {
     "id": "146",
     "nombre": "Moltres"
 }
 
 const todasCartas = [squirtle,wartortle,blastoise,bulbasaur,ivysaur,venusaur,charmander,charmeleon,charizard,articuno,zapdos,moltres]
 
-let packAgua = {"id": 1,
+const packAgua = {"id": 1,
                 "nombre": "Pack de Agua",
                 "precio": 1,
                 "cartas":[squirtle,wartortle,blastoise]}
-let packPlanta = {"id": 2,
+const packPlanta = {"id": 2,
                 "nombre": "Pack de Planta",
                 "precio": 1,
                 "cartas":[bulbasaur,ivysaur,venusaur]}
-let packFuego = {"id": 3,
+const packFuego = {"id": 3,
                 "nombre": "Pack de Fuego",
                 "precio": 1,
                 "cartas":[charmander,charmeleon,charizard]}
-let packMega = {"id": 4,
+const packMega = {"id": 4,
                 "nombre": "Pack Mega",
                 "precio": 5,
                 "cartas": getRandomSubarray(todasCartas, 3)}
-let packLegendarios = {"id": 5,
+const packLegendarios = {"id": 5,
                 "nombre": "Pack Legendario",
                 "precio": 10,
                 "cartas":[articuno,zapdos,moltres]}
 
-let packs = [packAgua,packFuego,packPlanta,packMega,packLegendarios]
+const packs = [packAgua,packFuego,packPlanta,packMega,packLegendarios]
 
 function validarCreditos(c) {
     if (c > MAX_CREDITOS){
