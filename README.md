@@ -1,8 +1,9 @@
+# Entrega1 + Forti
 # Tienda de Cartas
 
 ## Inicio
 
-WIP
+Copia de Abrir packs para la entrega 1
 
 ## Abrir Packs
 
